@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            padding:0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            position: fixed;
+            z-index: 999;
+            top:30%;
+            left: 0;
+            height: auto;
+            width: auto;
+        }
+        .home,.about,.call,.email{
+            height:40px;
+            width: 100px;
+            position:fixed;
+            left: -70px;
+            top: 0%;
+            background-color: blue;
+            border-radius: 5px ;
+            text-align: center;
+            line-height: 40px;
+            transition: left 0.5s;
+           
+        }
+        .container>:hover{
+            left:0px;
+        }
+        .about{
+            background-color: green;
+            top:45px
+        }
+        .call{
+            background-color: brown;
+            top:90px
+        }
+        .email{
+            background-color: orange;
+            top:135px
+        }
+        a{
+            
+            font-size: 22px;
+            font-family: chiller;
+            letter-spacing: 1px;
+            text-decoration: none;
+            color: white;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <a href="#">Home</a>
+        </div>
+        <div class="about">
+            <a href="#">About</a>
+        </div>
+        <div class="call">
+            <a href="#">Call</a>
+        </div>
+        <div class="email">
+            <a href="#">Email</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Hoverable Sidenav Buttons</h1>
+        <br>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+            overflow: hidden;
+            border: 3px solid black;
+            width: 500px;
+        }
+
+        li.nav-item {
+            float: left;
+            border-right: 1px solid white; 
+        }
+
+        li.nav-item:first-child {
+            border-right: none; 
+            background-color: #ff33a7; 
+        }
+
+        li.nav-item a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li.nav-item a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Horizontal Navigation Bar</h1>
+    <ul class="navbar">
+        <li class="nav-item"><a href="#home">Home</a></li>
+        <li class="nav-item"><a href="#java">Java</a></li>
+        <li class="nav-item"><a href="#css">CSS</a></li>
+        <li class="nav-item"><a href="#html">HTML</a></li>
+        <li class="nav-item"><a href="#bootstrap">Bootstrap</a></li>
+        
+    </ul>
+</body>
+</html>
+
